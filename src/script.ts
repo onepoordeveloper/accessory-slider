@@ -133,7 +133,7 @@ const listenToScroll = (): void => {
   listingWrapper?.addEventListener('scroll', scrollHandler)
 }
 
-const main = () => {
+const main = (): void => {
   addProductsToDOM()
   listenToScroll()
 }
